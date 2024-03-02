@@ -43,7 +43,9 @@ namespace MAESTRO_İK
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-
+            PersonelPaneli form2 = new PersonelPaneli();
+            this.Hide();
+            form2.ShowDialog();
         }
 
         private void kullanıcı_adıTextbox_OnValueChanged(object sender, EventArgs e)
