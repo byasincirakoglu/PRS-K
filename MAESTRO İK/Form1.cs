@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace MAESTRO_İK
 {
@@ -16,6 +17,7 @@ namespace MAESTRO_İK
         {
             InitializeComponent();
         }
+        public string conString = "";
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {

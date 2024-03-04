@@ -73,5 +73,10 @@ namespace MAESTRO_İK
                 Personel_Soyadı.Text = "Şifre";
             }
         }
+
+        private void Admin_Paneli_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -67,11 +67,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(536, 45);
+            this.label1.Location = new System.Drawing.Point(392, 35);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 74);
+            this.label1.Size = new System.Drawing.Size(123, 55);
             this.label1.TabIndex = 3;
             this.label1.Text = "PRS";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -81,9 +82,10 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Cursor = System.Windows.Forms.Cursors.PanNW;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(544, 110);
+            this.label2.Location = new System.Drawing.Point(408, 89);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 1);
+            this.label2.Size = new System.Drawing.Size(87, 1);
             this.label2.TabIndex = 4;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
@@ -112,9 +114,10 @@
             this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(23)))), ((int)(((byte)(65)))));
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(1026, 32);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(770, 26);
             this.bunifuGradientPanel1.TabIndex = 0;
             this.bunifuGradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.bunifuGradientPanel1_Paint);
             // 
@@ -122,10 +125,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 13.2F);
-            this.label3.Location = new System.Drawing.Point(3, 0);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F);
+            this.label3.Location = new System.Drawing.Point(2, 0);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(328, 25);
+            this.label3.Size = new System.Drawing.Size(256, 22);
             this.label3.TabIndex = 11;
             this.label3.Text = "Personnel Registration System";
             // 
@@ -134,9 +138,10 @@
             this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
             this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(991, 0);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(743, 0);
+            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(35, 32);
+            this.bunifuImageButton1.Size = new System.Drawing.Size(26, 26);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bunifuImageButton1.TabIndex = 10;
             this.bunifuImageButton1.TabStop = false;
@@ -147,7 +152,8 @@
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.PanNW;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(607, 464);
+            this.pictureBox3.Location = new System.Drawing.Point(455, 377);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(50, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -158,7 +164,8 @@
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.PanNW;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(794, 464);
+            this.pictureBox2.Location = new System.Drawing.Point(596, 377);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(50, 50);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -169,7 +176,8 @@
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.PanNW;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(447, 464);
+            this.pictureBox1.Location = new System.Drawing.Point(335, 377);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(50, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -185,10 +193,11 @@
             this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(23)))), ((int)(((byte)(65)))));
-            this.bunifuGradientPanel2.Location = new System.Drawing.Point(3, 35);
+            this.bunifuGradientPanel2.Location = new System.Drawing.Point(2, 28);
+            this.bunifuGradientPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
             this.bunifuGradientPanel2.Quality = 10;
-            this.bunifuGradientPanel2.Size = new System.Drawing.Size(252, 588);
+            this.bunifuGradientPanel2.Size = new System.Drawing.Size(189, 478);
             this.bunifuGradientPanel2.TabIndex = 5;
             // 
             // admin_giriş_button
@@ -203,17 +212,17 @@
             this.admin_giriş_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("admin_giriş_button.BackgroundImage")));
             this.admin_giriş_button.ButtonText = "ADMİN GİRİŞ";
             this.admin_giriş_button.Cursor = System.Windows.Forms.Cursors.PanNW;
-            this.admin_giriş_button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.admin_giriş_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.admin_giriş_button.ForeColor = System.Drawing.Color.SeaGreen;
             this.admin_giriş_button.IdleBorderThickness = 1;
             this.admin_giriş_button.IdleCornerRadius = 20;
             this.admin_giriş_button.IdleFillColor = System.Drawing.Color.Transparent;
             this.admin_giriş_button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.admin_giriş_button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.admin_giriş_button.Location = new System.Drawing.Point(346, 248);
-            this.admin_giriş_button.Margin = new System.Windows.Forms.Padding(5);
+            this.admin_giriş_button.Location = new System.Drawing.Point(260, 202);
+            this.admin_giriş_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.admin_giriş_button.Name = "admin_giriş_button";
-            this.admin_giriş_button.Size = new System.Drawing.Size(190, 41);
+            this.admin_giriş_button.Size = new System.Drawing.Size(142, 33);
             this.admin_giriş_button.TabIndex = 1;
             this.admin_giriş_button.Tag = "";
             this.admin_giriş_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -230,27 +239,27 @@
             this.Personel_giriş_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Personel_giriş_button.BackgroundImage")));
             this.Personel_giriş_button.ButtonText = "PERSONEL GİRİŞ";
             this.Personel_giriş_button.Cursor = System.Windows.Forms.Cursors.PanNW;
-            this.Personel_giriş_button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Personel_giriş_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Personel_giriş_button.ForeColor = System.Drawing.Color.SeaGreen;
             this.Personel_giriş_button.IdleBorderThickness = 1;
             this.Personel_giriş_button.IdleCornerRadius = 20;
             this.Personel_giriş_button.IdleFillColor = System.Drawing.Color.Transparent;
             this.Personel_giriş_button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Personel_giriş_button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.Personel_giriş_button.Location = new System.Drawing.Point(737, 248);
-            this.Personel_giriş_button.Margin = new System.Windows.Forms.Padding(5);
+            this.Personel_giriş_button.Location = new System.Drawing.Point(553, 202);
+            this.Personel_giriş_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Personel_giriş_button.Name = "Personel_giriş_button";
-            this.Personel_giriş_button.Size = new System.Drawing.Size(195, 41);
+            this.Personel_giriş_button.Size = new System.Drawing.Size(146, 33);
             this.Personel_giriş_button.TabIndex = 1;
             this.Personel_giriş_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Personel_giriş_button.Click += new System.EventHandler(this.Personel_giriş_button_Click);
             // 
             // GirişPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.ClientSize = new System.Drawing.Size(1027, 588);
+            this.ClientSize = new System.Drawing.Size(770, 478);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -264,6 +273,7 @@
             this.ForeColor = System.Drawing.Color.Transparent;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "GirişPanel";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
